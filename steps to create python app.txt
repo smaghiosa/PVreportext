@@ -1,0 +1,7 @@
+pip install pyinstaller
+
+pyinstaller --onefile --windowed main.py (main.py to be replaced by actual app name)
+
+dist
+│
+└── PVReportExtractor.exe

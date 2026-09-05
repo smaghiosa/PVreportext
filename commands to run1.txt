@@ -1,0 +1,39 @@
+for multi run
+
+python bulk_extract.py Input Master_Element_Data.xlsx
+
+python bulk_extract.py Input Master_Element_Data.xlsx
+
+
+python bulk_extract.py Input/vessels Master_Element_Data_V.xlsx
+python bulk_extract.py Input/Columns Master_Element_Data_C.xlsx
+
+python bulk_extract.py Input/Columns Master_Element_Data_C.xlsx
+
+For selected or all Folders 
+
+python bulk_extract_all_Selected.py Input Master_Element_Data.xlsx
+
+--> then select or enter for all or write folder number i.e. 1 or 1,2 or 2,3 etc.
+
+
+
+For single run 
+
+python pvelite_dynamic_extractor.py "Input\121-D_Co2 Absorber.pdf"
+
+python pvelite_dynamic_extractor.py "Input\122-D2_Co2 Stripper.pdf"
+
+python pvelite_dynamic_extractor.py "Input\401-C-02_Mechanical.pdf"
+
+python pvelite_dynamic_extractor.py "Input\504-C-101_Mechanical calc.pdf"
+
+
+Vessels
+
+python pvelite_dynamic_extractor.py "vessels\Ammonia accumulator_Hor.pdf"
+
+python pvelite_dynamic_extractor.py "vessels\Plant air receiver_vertical.pdf"
+
+
+
